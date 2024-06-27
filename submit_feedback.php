@@ -6,8 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rating = $_POST['rating'];
 
     $servername = "localhost";
-    $username = "root"; // default username for XAMPP/WAMP
-    $password = ""; // default password for XAMPP/WAMP
+    $username = "root"; 
+    $password = "";
     $dbname = "campaign_feedback";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
